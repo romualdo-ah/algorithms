@@ -30,6 +30,13 @@ const parentheses_pairs = {
 
 const parentheses_cases = [ '{}', '[]', '()', '{}[(])', '([)]' ];
 
+//should return 
+//true
+//true
+//true
+//false
+//false
+
 for (let somecase of parentheses_cases) {
 	console.log(BalancedPairs(somecase, parentheses_pairs));
 }
