@@ -28,6 +28,7 @@ const parentheses_pairs = {
 	'[': ']'
 };
 
+//test cases
 const parentheses_cases = [ '{}', '[]', '()', '{}[(])', '([)]' ];
 
 //should return 
