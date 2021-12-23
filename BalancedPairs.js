@@ -28,10 +28,16 @@ const parentheses_pairs = {
 	'[': ']'
 };
 
-//test cases
-const parentheses_cases = [ '{}', '[]', '()', '{}[(])', '([)]' ];
+//test cases:
+const parentheses_cases = [ 
+	'{}', 
+	'[]', 
+	'()', 
+	'{}[(])', 
+	'([)]'
+	];
 
-//should return 
+//should return:
 //true
 //true
 //true
